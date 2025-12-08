@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
-  '0':
+  BASE:
   - '`'
   - '1'
   - '2'
@@ -25,7 +25,7 @@ layers:
   - Y
   - ;
   - \
-  - '1'
+  - NAV
   - A
   - R
   - S
@@ -38,7 +38,7 @@ layers:
   - O
   - ''''
   - LSHIFT
-  - {t: Z, h: '3'}
+  - {t: Z, h: ADJ}
   - X
   - C
   - V
@@ -47,17 +47,17 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: '3'}
+  - {t: /, h: ADJ}
   - {t: RET, h: RSHFT}
-  - '2'
+  - SYM
   - '&mkp MB2'
   - LALT
   - LGUI
   - '&mkp MB1'
   - SPACE
   - LCTRL
-  - {t: BACKSPACE, h: '2'}
-  '1':
+  - {t: BACKSPACE, h: SYM}
+  NAV:
   - F12
   - F1
   - F2
@@ -113,8 +113,8 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - '0'
-  - '3'
-  '2':
+  - ADJ
+  SYM:
   - F12
   - F1
   - F2
@@ -163,7 +163,7 @@ layers:
   - '4'
   - '5'
   - {t: ▽, type: trans}
-  - {t: '3', type: held}
+  - {t: ADJ, type: held}
   - {t: ▽, type: trans}
   - VOLUME DOWN
   - VOLUME UP
@@ -171,7 +171,7 @@ layers:
   - {t: FAST FORWARD, h: toggle}
   - PLAY PAUSE
   - {t: ▽, type: trans}
-  '3':
+  ADJ:
   - F12
   - F1
   - F2
