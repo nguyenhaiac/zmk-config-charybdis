@@ -38,7 +38,7 @@ layers:
   - O
   - ''''
   - LSHIFT
-  - Z
+  - {t: Z, h: '3'}
   - X
   - C
   - V
@@ -47,7 +47,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: '3'}
   - {t: RET, h: RSHFT}
   - '2'
   - '&mkp MB2'
@@ -196,7 +196,7 @@ layers:
   - BT NXT
   - '&sys_reset'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&bootloader'
   - PREVIOUS
   - PLAY PAUSE
@@ -209,7 +209,7 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - SCROLL
   - SNIP
   - VOLUME DOWN
@@ -227,7 +227,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SNIP:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -266,7 +266,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - SCROLL
   - {type: held}
   - {t: ▽, type: trans}
@@ -284,7 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -310,7 +310,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -323,7 +323,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -341,7 +341,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESC
