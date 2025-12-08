@@ -54,8 +54,8 @@ layers:
   - LALT
   - LGUI
   - '&mkp MB1'
-  - SPACE
   - LCTRL
+  - SPACE
   - {t: BACKSPACE, h: SYM}
   NAV:
   - F12
