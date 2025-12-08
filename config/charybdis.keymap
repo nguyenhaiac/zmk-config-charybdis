@@ -34,15 +34,6 @@
         };
     };
 
-        conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        adjust_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -53,7 +44,7 @@
 &kp TAB     &kp Q        &kp W  &kp F     &kp P     &kp G    &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp BSLH
 &mo 1       &kp A        &kp R  &kp S     &kp T     &kp D    &kp H      &kp N      &kp E      &kp I    &kp O     &kp SQT
 &kp LSHIFT  &lt 3 Z        &kp X  &kp C     &kp V     &kp B    &kp K      &kp M      &kp COMMA  &kp DOT  &lt 3 FSLH  &mt RSHFT RET
-            &mo 2        &mkp MB2         &kp LALT    &kp LGUI     &mkp MB1  &kp SPACE         &kp LCTRL                 &lt 2 BACKSPACE
+            &mo 2        &mkp MB2         &kp LALT    &kp LGUI     &mkp MB1  &kp LCTRL         &kp SPACE                 &lt 2 BACKSPACE
             >;
         };
 
