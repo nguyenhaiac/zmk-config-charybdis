@@ -56,7 +56,7 @@ layers:
   - '&mkp MB2'
   - LCTRL
   - SPACE
-  - {t: BACKSPACE, h: SYM}
+  - '&mkp MB3'
   NAV:
   - F12
   - F1
@@ -221,10 +221,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - AC FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - AC FORWARD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
