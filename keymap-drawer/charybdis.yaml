@@ -50,10 +50,10 @@ layers:
   - {t: /, h: ADJ}
   - {t: RET, h: RSHFT}
   - SYM
-  - '&mkp MB2'
+  - '&mkp MB1'
   - LALT
   - LGUI
-  - '&mkp MB1'
+  - '&mkp MB2'
   - LCTRL
   - SPACE
   - {t: BACKSPACE, h: SYM}
@@ -111,8 +111,8 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ENTER
-  - '0'
   - ADJ
   SYM:
   - F12
