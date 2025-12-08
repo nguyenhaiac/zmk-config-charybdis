@@ -44,7 +44,7 @@
 &kp TAB     &kp Q        &kp W  &kp F     &kp P     &kp G    &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp BSLH
 &mo 1       &kp A        &kp R  &kp S     &kp T     &kp D    &kp H      &kp N      &kp E      &kp I    &kp O     &kp SQT
 &kp LSHIFT  &lt 3 Z        &kp X  &kp C     &kp V     &kp B    &kp K      &kp M      &kp COMMA  &kp DOT  &lt 3 FSLH  &mt RSHFT RET
-            &mo 2        &mkp MB1         &kp LALT    &kp LGUI     &mkp MB2  &kp LCTRL         &kp SPACE                 &lt 2 BACKSPACE
+            &mo 2        &mkp MB1         &kp LALT    &kp LGUI     &mkp MB2  &kp LCTRL         &kp SPACE                 &mkp MB3
             >;
         };
 
@@ -74,7 +74,7 @@
 &trans   &sys_reset   &bt BT_PRV      &bt BT_NXT        &bt BT_CLR         &out OUT_TOG             &bt BT_SEL 0  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &sys_reset   &trans
 &trans   &bootloader  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT         &kp C_MUTE               &bt BT_SEL 1  &mkp MB1    &mkp MB2    &mkp MB3    &bootloader  &trans
 &trans   &trans       &mo 5           &mo 4             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP          &bt BT_SEL 2  &trans      &mo 4       &mo 5       &trans       &trans
-         &trans       &trans          &trans            &trans             &trans           &trans                &trans                  &trans
+         &trans       &kp C_AC_FORWARD          &trans            &trans             &kp C_AC_FORWARD           &trans                &trans                  &trans
             >;
         };
 
