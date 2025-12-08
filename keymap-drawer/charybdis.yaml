@@ -1,0 +1,347 @@
+layout: {zmk_keyboard: charybdis, layout_name: default_transform}
+layers:
+  '0':
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - \
+  - '1'
+  - A
+  - R
+  - S
+  - T
+  - D
+  - H
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - ','
+  - .
+  - /
+  - {t: RET, h: RSHFT}
+  - '2'
+  - '&mkp MB2'
+  - LALT
+  - LGUI
+  - '&mkp MB1'
+  - SPACE
+  - LCTRL
+  - {t: BACKSPACE, h: '2'}
+  '1':
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - INS
+  - PSCRN
+  - Ctl+PG UP
+  - Ctl+PG DN
+  - {t: ▽, type: trans}
+  - PG UP
+  - Ctl+LEFT ARROW
+  - UP
+  - Ctl+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - LALT
+  - GUI
+  - LSHFT
+  - LCTRL
+  - ESC
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - BSPC
+  - DEL
+  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - ENTER
+  - '0'
+  - '3'
+  '2':
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '~'
+  - '%'
+  - '&'
+  - '?'
+  - +
+  - '@'
+  - $
+  - _
+  - '['
+  - ']'
+  - '!'
+  - '#'
+  - '`'
+  - /
+  - (
+  - '='
+  - '0'
+  - '{'
+  - '}'
+  - '1'
+  - '*'
+  - )
+  - '-'
+  - ^
+  - '&studio_unlock'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '|'
+  - \
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: '3', type: held}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: FAST FORWARD, h: toggle}
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  '3':
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - BT PRV
+  - BT NXT
+  - BT CLR
+  - OUT TOG
+  - {t: BT, h: '0'}
+  - BT CLR
+  - BT PRV
+  - BT NXT
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '&bootloader'
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - MUTE
+  - {t: BT, h: '1'}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SCROLL
+  - SNIP
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: BT, h: '2'}
+  - {t: ▽, type: trans}
+  - SNIP
+  - SCROLL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  SNIP:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SCROLL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SCROLL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  SCROLL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+combos:
+- p: [0, 1]
+  k: ESC
