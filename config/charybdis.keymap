@@ -56,7 +56,7 @@
 &kp GRAVE   &kp N1       &kp N2         &kp N3      &kp N4        &kp N5   &kp N6            &kp N7        &kp N8      &kp N9           &kp N0          &kp MINUS
 &kp TAB     &kp Q        &kp W  &kp F     &kp P     &kp G    &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp BSLH
 &mo 1       &kp A        &kp R  &kp S     &kp T     &kp D    &kp H      &kp N      &kp E      &kp I    &kp O     &kp SQT
-&kp LSHIFT  &kp Z        &kp X  &kp C     &kp V     &kp B    &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT RET
+&kp LSHIFT  &lt 3 Z        &kp X  &kp C     &kp V     &kp B    &kp K      &kp M      &kp COMMA  &kp DOT  &lt 3 FSLH  &mt RSHFT RET
             &mo 2        &mkp MB2         &kp LALT    &kp LGUI     &mkp MB1  &kp SPACE         &kp LCTRL                 &lt 2 BACKSPACE
             >;
         };
