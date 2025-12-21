@@ -46,7 +46,7 @@ layers:
   - K
   - M
   - ','
-  - .
+  - {t: ., h: SCROLL}
   - {t: /, h: MOUSE}
   - {t: RET, h: RSHFT}
   - SYM
@@ -168,9 +168,9 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - {t: ▽, type: trans}
-  - {t: FAST FORWARD, h: toggle}
-  - PLAY PAUSE
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mpk MB2'
+  - '&mkp MB1'
   ADJ:
   - F12
   - F1
@@ -220,11 +220,11 @@ layers:
   - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
-  - AC FORWARD
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AC FORWARD
+  - '&mm LSHFT MCLK'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -323,15 +323,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
