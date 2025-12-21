@@ -169,7 +169,7 @@ layers:
   - VOLUME UP
   - {t: ▽, type: trans}
   - '&mkp MB3'
-  - '&mpk MB2'
+  - '&mkp MB2'
   - '&mkp MB1'
   ADJ:
   - F12
