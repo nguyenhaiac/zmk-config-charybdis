@@ -106,14 +106,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - '&mm LSHFT MCLK'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - ADJ
   SYM:
   - F12
   - F1
