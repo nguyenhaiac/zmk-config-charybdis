@@ -70,7 +70,7 @@ mm: mm {
 &trans           &kp INS         &kp PSCRN        &kp LC(PG_UP)  &kp LC(PG_DN)  &trans        &kp PG_UP  &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &trans    &trans
 &trans           &kp LALT        &kp GUI          &kp LSHFT      &kp LCTRL      &kp ESC       &kp PG_DN  &kp LEFT            &kp DOWN  &kp RIGHT            &kp BSPC  &kp DEL
 &trans           &kp LC(Z)       &kp LC(X)        &kp LC(C)      &kp LC(V)      &trans        &trans     &trans              &trans    &trans               &trans    &trans
-                 &trans          &trans           &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &trans            &kp ENTER          &mo 3
+         &mkp MB3       &mkp MB1          &trans        &mm LSHFT MCLK             &mkp MB2           &trans                &trans                  &trans
             >;
         };
 
