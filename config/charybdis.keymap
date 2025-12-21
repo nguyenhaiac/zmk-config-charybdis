@@ -80,7 +80,7 @@ mm: mm {
 &kp TILDE  &kp PRCNT  &kp AMPS  &kp QMARK   &kp PLUS    &kp AT      &kp DLLR       &kp UNDER        &kp LBKT      &kp RBKT  &kp EXCL   &kp HASH
 &kp GRAVE  &kp FSLH   &kp LPAR  &kp EQUAL   &kp N0      &kp LBRC    &kp RBRC       &kp N1           &kp STAR      &kp RPAR  &kp MINUS  &kp CARET
 &studio_unlock    &kp N6     &kp N7    &kp N8      &kp N9      &kp PIPE    &kp BACKSLASH  &kp N2           &kp N3        &kp N4    &kp N5     &trans
-         &mo 3          &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans         &mkp MB3             &mpk MB2             &mkp MB1
+         &mo 3          &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans         &mkp MB3             &mkp MB2             &mkp MB1
             >;
         };
 
