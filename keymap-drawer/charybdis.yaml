@@ -52,7 +52,7 @@ layers:
   - SYM
   - '&mkp MB1'
   - LALT
-  - LGUI
+  - {t: LGUI, h: SCROLL}
   - '&mkp MB2'
   - LCTRL
   - SPACE
@@ -277,11 +277,11 @@ layers:
   - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mm LSHFT MCLK'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
