@@ -111,8 +111,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mm LSHFT MCLK'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - ENTER
   - {t: ▽, type: trans}
   SYM:
   - F12
