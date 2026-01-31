@@ -6,5 +6,5 @@ include:
     shield: charybdis_right
   - board: nice_nano@2.0.0
     shield: settings_reset
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: charybdis_dongle
