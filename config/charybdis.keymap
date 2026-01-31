@@ -7,7 +7,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 
-
+/ {
+    chosen { zmk,matrix_transform = &default_transform; };
+};
 
 &mt {
     quick-tap-ms = <200>;
