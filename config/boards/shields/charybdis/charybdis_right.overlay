@@ -1,5 +1,6 @@
 #include "charybdis.dtsi"
 #include "addr.dtsi"
+#include "trackball.dtsi"
 
 &default_transform {
 	col-offset = <6>;
@@ -103,10 +104,14 @@
 };
 
 
-/ {
-  trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-  };
+// / {
+//   trackball_listener {
+//     compatible = "zmk,input-listener";
+//     device = <&trackball>;
+//   };
 
+// };
+
+&trackball_split {
+    device = <&trackball>;
 };
