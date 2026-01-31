@@ -2,6 +2,7 @@
 #include "addr.dtsi"
 #include "charybdis.dtsi"
 #include "trackball.dtsi"
+#include "physical_layout.dtsi"
 
 &physical_layout0 {
     transform = <&default_transform>;
