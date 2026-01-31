@@ -8,7 +8,8 @@
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
     };
-}
+};
+
 &default_transform {
 	col-offset = <6>;
 };
