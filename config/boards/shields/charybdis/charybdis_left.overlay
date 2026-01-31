@@ -2,6 +2,12 @@
 #include "addr.dtsi"
 
 
+/{
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
+    };
+}
 
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";

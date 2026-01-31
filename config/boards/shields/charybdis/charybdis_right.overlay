@@ -2,6 +2,13 @@
 #include "addr.dtsi"
 #include "trackball.dtsi"
 
+/{
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
+    };
+}
+
 
 &default_transform {
 	col-offset = <6>;
