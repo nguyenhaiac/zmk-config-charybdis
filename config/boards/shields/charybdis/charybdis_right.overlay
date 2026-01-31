@@ -1,14 +1,7 @@
 #include "charybdis.dtsi"
 #include "addr.dtsi"
 #include "trackball.dtsi"
-#include "physical_layout.dtsi"
 
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
-    };
-};
 
 &default_transform {
 	col-offset = <6>;
