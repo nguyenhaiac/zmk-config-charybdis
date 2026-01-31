@@ -61,9 +61,6 @@
     compatible = "zmk,input-listener";
     device = <&trackball>;
   };
-};
-
-/{
     esb_split {
         compatible = "zmk,esb-split";
         // These are arbitrary default addresses. In end user products
