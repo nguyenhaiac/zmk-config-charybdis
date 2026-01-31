@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "addr.dtsi"
 #include "charybdis.dtsi"
+#include "trackball.dtsi"
 
 / {
     chosen {
