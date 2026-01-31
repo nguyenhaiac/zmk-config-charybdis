@@ -8,6 +8,6 @@ include:
     snippet: zmk-usb-logging
   - board: nice_nano@2.0.0
     shield: settings_reset
-  - board: xiao_ble
+  - board: nice_nano@2.0.0
     shield: charybdis_dongle
     snippet: zmk-usb-logging
