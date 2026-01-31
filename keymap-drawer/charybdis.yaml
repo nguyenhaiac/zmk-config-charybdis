@@ -38,7 +38,7 @@ layers:
   - O
   - ''''
   - LSHIFT
-  - {t: Z, h: ADJ}
+  - {t: Z, h: SNIP}
   - X
   - C
   - V
@@ -209,7 +209,7 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - SCROLL
   - SNIP
   - VOLUME DOWN
@@ -227,7 +227,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   SNIP:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - SCROLL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
