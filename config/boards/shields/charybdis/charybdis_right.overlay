@@ -2,6 +2,7 @@
 #include "addr.dtsi"
 #include "trackball.dtsi"
 
+
 &default_transform {
 	col-offset = <6>;
 };
@@ -24,6 +25,7 @@
 		, <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
   ;
 };
+
 
 &pinctrl {
     spi0_default: spi0_default {
