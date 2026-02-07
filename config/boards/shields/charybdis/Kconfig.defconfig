@@ -3,11 +3,12 @@ if SHIELD_CHARYBDIS_DONGLE
 config ZMK_KEYBOARD_NAME
 	default "Charybdis_ble"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-	
-config ZMK_POINTING
+
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 3
 
 
 endif
