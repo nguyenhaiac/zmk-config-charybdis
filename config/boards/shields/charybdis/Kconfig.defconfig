@@ -4,7 +4,7 @@ config ZMK_KEYBOARD_NAME
 	default "Charybdis_ble"
 
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
