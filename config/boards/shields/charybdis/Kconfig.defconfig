@@ -10,6 +10,8 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 3
 
+config ZMK_POINTING
+    default y
 
 endif
 
