@@ -1,5 +1,4 @@
 #include "charybdis.dtsi"
-#include "addr.dtsi"
 #include "trackball.dtsi"
 
 /{
